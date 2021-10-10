@@ -1,0 +1,435 @@
+
+/**
+ * Theme Name: Green Veg
+ * Theme Uri: wordpress.org/themes/download/greenveg
+ * Author Uri: www.uniquecoder.net
+ * Author: UNIQUECODER
+ * Description: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+ * Tags:  Lorem, Ipsum, is simply, dummy, text,of, the, printing, and,typesetting,industry
+ * Text Domain: green veg
+ * /
+ 
+
+/*Custom css starts here for this green veg  theme*/
+
+section#category {
+    font-size: 17px;
+} 
+
+td.product-thumbnail {
+    width: 100px;
+}
+
+h3 a {
+    color: black!important;
+    font-size: 2.5rem!important;
+}
+p.woocommerce-info {
+    color: red;
+    border-top: 5px solid #27ae60;
+    font-size: 20px;
+}
+
+a.added_to_cart.wc-forward {
+    background: #2c2c54!important;
+    position: absolute!important;
+    bottom: 19px!important;
+    left: 20px!important;
+    font-size: 1.7rem!important;
+    width: 317px!important;
+    padding: 9px!important;
+    color: white!important;
+}
+
+a.added_to_cart.wc-forward:hover{
+    color: white!important;
+    background: #27ae60!important;
+}
+img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {
+    width: 20rem;
+    height: 20rem;
+}
+.star-rating {
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    font-size: 1em;
+    
+    font-family: star;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.star-rating::before {
+    content: '\73\73\73\73\73';
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+}.star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+} 
+del {
+
+    text-decoration: line-through!important;
+    color: #ccc;
+}
+ins {
+
+    font-weight: 700!important;
+    color: #333;
+}
+
+.tinv-wishlist .tinvwl_added_to_wishlist .tinv-txt {
+    margin-bottom: 25px!important;
+}
+.tinv-wishlist .tinvwl-buttons-group button {
+    width: 100%;
+    font-size: 20px!important;
+    padding: 8px!important;
+}
+body{
+    font-size: 17px!important;
+}
+i.fas.fa-share {
+    position: absolute;
+    top: 75px;
+    right: 14px;
+    color: #222;
+    cursor: pointer;
+}
+.woocommerce.product.compare-buttoni:hover .fas.fa-share{
+    color: white;
+}
+.heading span {
+    color: var(--green);
+    text-transform: uppercase;
+    font-size: 35px;
+}.breadcrumb {
+    width: 150px;
+    
+}
+
+
+ul.header-menu {
+    display: flex!important;
+    list-style: none!important;
+}ul.social-menu {
+    display: flex;
+    list-style: none;
+    margin-left: -5px;
+}
+ul.social-menu li{
+    margin: 0px 5px;
+}
+ul.social-menu li a{
+    display: inline-block;
+    background: var(--green);
+    color: #fff;
+    padding: .8rem 2rem;
+    font-size: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+ul.social-menu li a:hover{
+  background:var(--black);
+}
+.links li{
+
+list-style: none;
+
+}
+.widget {
+    color: white;
+    background: #27ae60;
+    padding: 5px 6px;
+    border-radius: 2px;
+    margin: 5px 2px;
+    font-size: 2rem;
+}
+.widget1 {
+    color: white;
+    background: #27ae60;
+    padding: 5px 9px;
+    border-radius: 2px;
+    margin: 5px 2px;
+    font-size: 2rem;
+}.textwidget.custom-html-widget {
+    margin-top: 8px;
+    font-size: 17px;
+    color: #333;
+    font-weight: 500;
+}
+
+
+.pagination-container ul.list-inline.list-unstyled {
+    margin: 20px 0px;
+  
+}
+
+.pagination-container {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.pagination-container ul.list-inline.list-unstyled  li {
+    list-style: none;
+    text-align: center;
+    margin: auto;
+    display: inline;
+    color: white;
+    margin-left: 10px;
+}
+
+.pagination-container ul.list-inline.list-unstyled li span.page-numbers.current {
+    background: #2c2c54;
+    padding: 5px 10px;
+}
+
+.pagination-container ul.list-inline.list-unstyled li a.page-numbers {
+    background: #27ae60;
+    color: #000;
+    padding: 5px 10px;
+}.product .box-container .box h3 {
+    color: var(--black);
+    font-size: 2.5rem;
+    margin-top: 15px;
+}.price {
+    margin-top: 5px;
+}a.woocommerce-review-link {
+    display: none;
+}.star-rating {
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    font-size: 20px;
+    font-family: star;
+    margin: auto;
+    width: 11rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}.woocommerce-product-rating {
+    width: 110px;
+}.woocommerce-error, .woocommerce-info, .woocommerce-message {
+   
+    color: #27ae60!important;
+    border-top: 3px solid #a46497;
+
+}.woocommerce-message::before {
+    content: "\e015";
+    color: #27ae60!important;
+}.woocommerce-message {
+    border-top-color: #27ae60!important;
+}a.button.wc-forward {
+    color: #27ae60;
+}section.newsletter {
+    margin-top: 90px;
+}ul.nav.nav-pills {
+    background: #eee;
+    padding: 15px 15px;
+    display: flex;
+    list-style: none;
+}
+.description-reviews-addition {
+    margin: 50px 0px!important;
+}li#tab-title-description a {
+    color: black;
+    font-weight: 900;
+    font-size: 30px;
+}div#dkmo {
+    margin-left: 15px!important;
+}.slider-image img {
+    width: 6.7rem;
+    height: 6.7rem;
+    margin: 7px;
+    cursor: pointer;
+    display: flex!important;
+    float: left!important;
+}.summary.entry-summary {
+    margin-bottom: 200px!important;
+}#dkmo p {
+    font-family: ui-serif;
+    font-weight: 600;
+}input#coupon_code {
+    font-size: 20px!important;
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+    padding-top: 4px!important;
+    padding-bottom: 6px!important;
+    border: 1px solid #27ae60!important;
+    width: 160px!important;
+}a.shipping-calculator-button {
+    color: #27ae60;
+}
+.woocommerce-MyAccount-navigation ul {
+    list-style: none!important;
+}
+
+.woocommerce-MyAccount-content a{
+    color: #27ae60!important;
+    padding: 7px 3px!important;
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+.woocommerce-MyAccount-navigation ul li a {
+    color: #27ae60!important;
+    padding: 7px 3px!important;
+    font-size: 20px;
+    font-weight: 700;
+
+}.woocommerce-MyAccount-content {
+    font-size: 25px;
+    margin-top: 20px;
+}a.woocommerce-button.button.view {
+    color: white!important;
+    background: #27ae60;
+}
+a.woocommerce-button.button.view:hover{
+
+    background: #333;
+}
+.woocommerce-form-row .woocommerce-form-row--wide .form-row .form-row-wide input{
+border: 1px solid #27ae60!important;
+padding: 13px!important;
+margin-bottom: 5px!important; 
+font-size: 20px;
+}
+
+
+button.button.alt {
+    font-size: 13px!important;
+    background: #27ae60!important;
+    color: #fff!important;
+    padding: 12px!important;
+}
+button.button.tinvwl-break-input.tinvwl-break-checkbox:hover{
+    background: #333!important;
+}
+button.button.alt:hover{
+    background: #333!important;
+}
+button.button.tinvwl-break-input.tinvwl-break-checkbox,
+button.button {
+    font-size:18px!important;
+    background: #27ae60!important;
+    color: #fff!important;
+    padding: 12px!important;
+}button.button:hover{
+    background: #333!important;
+}
+select#tinvwl_product_actions {
+    font-size: 23px;
+}
+td.product-name a {
+    color: #27ae60;
+    font-size: 25px;
+    font-weight: 600;
+}.tinv-wishlist .product-thumbnail {
+    min-width: 200px!important;
+  
+}i.ftinvwl.ftinvwl-times {
+    font-size: 20px!important;
+} .social-buttons ul li a{
+    display: inline-block;
+    background: var(--green);
+    color: #fff;
+    padding: .8rem 1.5rem;
+    font-size: 1.7rem;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+}.tinv-wishlist .social-buttons li a.social i {
+    line-height: 25px!important;
+}.social-buttons span {
+    margin-top: 25px;
+}.social-buttons ul li a:hover{
+
+background: #333;
+
+}.icons span {
+    position: absolute;
+    top: 3px;
+    right: 190px;
+    color: crimson;
+    font-size: 20px;
+    font-weight: 700;
+}a.btns {
+    color: white!important;
+    padding: 8px 13px!important;
+}
+.es-field-wrap label input.ig_es_form_field_name {
+    padding: 10px!impoertant;
+    border: 1px solid #27ae60!impoertant;
+    margin-right: 10px!impoertant;
+}
+.es-field-wrap label input.ig_es_form_field_email{
+   padding: 10px!impoertant;
+    border: 1px solid #27ae60!impoertant;
+    margin-right: 10px!impoertant;  
+}input#es_subscription_form_submit_60d2dbaa137f3 {
+    background: #27ae60!important;
+    padding: 10px 15px!important;
+    color: white!important;
+    font-size: 17px!important;
+}
+.woocommerce div.product p.price, .woocommerce div.product span.pricespan.price {
+    font-size: 25px!important;
+    margin-bottom: 15px!important;
+}.woocommerce div.product p.price, .woocommerce div.product span.price{
+    color: #333333!impotant;
+    font-weight: 700!impotant;
+}a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart.btn {
+    color: white!important;
+    background: #27ae60!important;
+    border-radius: 0px!important;
+}.see_all {
+    width: 100%;
+    text-align: center;
+}
+.see_all2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+a.button.yith-wcqv-button {
+    background: rgb(0 0 0 / 0%)!important;
+    position: absolute!important;
+    top: 116px!important;
+    right: 10px;
+    border-radius: 40px!important;
+    width: 45px!important;
+    height: 45px!important;
+}
+
+a.button.yith-wcqv-button:hover{
+        background: rgb(0 0 0 / 0%)!important;
+
+}
+
+.st{
+    color: red;
+} 
+
+
+/*responsive css starts from here*/
+
+
+@media only screen and (max-width: 1260px) {
+  .icons span {
+    position: absolute;
+    top: 3px;
+    right: 15%;
+ 
+}
+}
